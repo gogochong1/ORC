@@ -1,0 +1,1420 @@
+[
+    {
+        "type": "text",
+        "text": "智慧树",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1.下列选项中个，可以将应用程序提交给 PHP 处理的是(C)",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A. LoadModule B.FilesMatch C. setHandler D.PHPIniDir ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2.在学习 PHP 时我们需要安装 Apache 服务器。Apache是一种 (A)服务器",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A. WEB B. FTP C.SMTP D.以上都不是",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "3.下列端口号中，可以作为 URL 的默认请求端口号的是(B)。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A.8080 B.80 C.3306 D.8800 ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "4.语句“echo $\\mathrm{4~+6^{2~}~^{\\prime}}$ 的输出结果为(C)",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A.4 B.46 C.10 D. 程序运行出错",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "5.下列选项中，不属于赋值运算符的是（D ）。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A. $\\mathbf{\\check{\\Psi}}^{66}=\\mathbf{\\Psi}^{97}$ B. “ $+=$ ” C. “ =” D. “= ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "6.下列数据类型中通常用于逻辑判断的是（D ）。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A. 整型 B. 浮点型 C. 字符串型 D. 布尔型",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "7.分析一下代码，输出结果正确的是（C）<?php  \n$\\$10=3$ ;  \nif $\\begin{array}{r}{\\mathrm{\\SLv==1}\\dot{}}\\end{array}$ ){  \necho '一等品';  \n}elseif( $\\S\\mathrm{Lv=}2,$ ){  \necho '二等品';  \n}else{  \necho '不合格产品';  \n}  \n?>",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A. “一等品”B. “二等品”C. “不合格产品”D. 以上都不对",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "8.下列关于 PHP 的数据类型描述错误的是（ B）。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A. PHP 的数据类型分为标量数据类型、复合数据类型及  \n特殊数据类型  \nB. PHP 的标量类型包括布尔型、整型、浮点型、字符串  \n型和数组型  \nC. PHP 的复合类型包括数组和对象两种类型  \nD. PHP 的特殊类型包括资源和空值两种类型",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "9.下列关于整型的表示方式正确的是（ABC ）。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A. 10 B. 073 C. 0x3b D. 1.759 ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "10.请分析以下运算的执行顺序，输出的计算结果是（D ）。  \n<?php  \n$\\$1$ ;  \n$\\$6=2$ ;  \n$\\$123,456,7$ ;",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "echo \\$a.'--'. $\\$6$ ; $\\ensuremath{?}\\ensuremath{>}$ ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A. 1--5 B. 3--5 C. 3--3 D. 5--5",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "11.在下列选项中，不属于选择结构语句的是（D ）。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A. if   B. if…else C. switch…case D. while ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "12.下面可替代 if...else 语句对表达式的值进行判断的是（CD ）。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A. if B. while C. 三元运算符 D. switch",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "13.PHP 在连接 MySQL 时经常需要使用 MySQL 的端口号，则其默认端口号是（D ）。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A. 80 B. 8080 C. 3305 D. 3306 ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "14.下列PHP 扩展中，哪个扩展与数据库操作无关（B ）。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A. mysql 扩展 B. mbstring 扩展C. PDO 扩展 D. mysqli 扩展",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "15.下列选择中，可用于获取执行更新操作，受影响的记录数的是（ A）。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A. mysqli_affected_rows() B. mysqli_insert_id() C. mysqli_real_escape_string() D. mysqli_free_result() ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "16.在 php.ini 的配置项，哪一项可以开启 mysqli 扩展（B）。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A. extension=php_mysql.dll B. extension $\\mathbf{\\tau}_{\\lfloor}=$ php_mysqli.dll C. extension $\\mathbf{\\tau}_{\\lfloor}=$ php_pdo_mysql.dll D. extension=php_oracle.dll ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "17.下列选项中，用于释放结果集资源的函数是（C ）。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A. mysqli_error()B. mysqli_close()C. mysqli_free_result()D. 以上答案皆不正确",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "18.下面选项中，用于更新表中记录的关键字是（C ）。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A. ALTER B. CREATE C. UPDATE D. DROP ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1．hosts 文件的修改仅对本机有效。（T ）",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2．为防止冲突，在同一环境下仅允许安装一个Apache 服务。 （ F）",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "3．PHP 中的 echo 可以输出任意类型的数据，如字符串、数字等。 （F ）4．标准标记具有更好的兼容性、可移植性、可复用性。（ T）5．在表达式中，运算符的执行有先后顺序，这种顺序称为运算符的优先级。（T ）6．所谓单分支语句就是当满足某种条件时，就进行某种处理。（T ）7．虽然“&&”和“and”都表示逻辑与运算，但“and”的优先级比“&&”高。（F）",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "8．语句“echo 'a','b'”与语句“echo 'a'.'b'” ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "的输出结果相同。 （T ）",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "9．PHP 仅支持 3 种数据类型，分别为标量数据类型、  \n复合数据类型及特殊数据类型。（T ）10．布尔型的值只有 true 和 false 两种，并且区分  \n大小写。（F ）11．当 if 条件判断结果为 false 时，则程序将不执  \n行大括号{}中的代码段。（ T）12．PHP 中可以使用标记”<!---->”注释多行内容（F）13．switch…case 中的表达式值的类型不能是数组  \n或对象。（T ）14．逻辑运算符用于对布尔型的数据进行操作，其结  \n果仍然是布尔类型。（T ）15．只有当判断条件满足时，才会执行 if 后大括号  \n{}内的语句。（T ）16．算术运算符与数学中的运算符类似，因此“%”  \n表示百分比。（F ）17．赋值运算符的作用就是将常量、变量或表达式的  \n值赋给某一个变量。（T ）18．对于两个表达式进行比较，其结果一定是一个布  \n尔类型值。（T ）19．如果 if 语句的代码块中只包含一条语句，那么  \nif 语句的大括号可以省略。（T ）20．只有在短标记开启的情况下，语句 $^{66}\\langle?=?\\rangle\\$ ”表  \n示输出。（F ）21．对于两个表达式进行比较，其结果一定是一个布  \n尔类型值。（T ）22．标量类型包括布尔型、整型、字符串型和数组型。  \n（F ）23．MySQLi 扩展是 MySQL 扩展的增强版（T ）24．PHP 只能连接 MySQL 数据库，不支持 SQL Server  \n等其他数据库。（F ）25．一个数据库服务器中仅可以有一个数据库。（F ）",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "_mysqli_num_rows()__函数获取结果中行的数量。8．数据表中的字段默认值是通过_DEFAULT__关键字定义的。",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "课后题  \n一、填空题  \n1．Apache 服务器的默认端口是 (80)  \n2．Apache 主配置文件的名称是 (httpd.conf)  \n3．Apache 配置文件中，用于加载模块的指令是(LoadModule)  \n4．PHP 的配置文件是 (php.ini)。  \n5．在命令行“中，执行 (httpd k ninstall n pache)命令可卸载名为 Apache 的服务  \n6．PHP 的标准标记是 (<?php //code ?>)  \n7．使用预定义常量 (PHP_OS) 可以获取当前 PHP 环境的操作系统类型  \n8．PHP 中用来定义常量的函数是!(define（）)  \n9．结束循环跳出循环体的语句是 (break;)  \n10．结束本次循环 ，开始下一 层循环的 语句是(continue;)  \n11．定义函数使用的关键字为 (function)  \n12．用于对字符串中的某些字符进行替换操作的函数是(str_replace())  \n13．使用 (strlen()) 函数可以获取字符串的长度14．substr(‘import1’,1,3)的返回值是 (‘mpo’)。(第 3 个参数表示截取长度)  \n15．strrpos(‘Welcome to learning PHP’,’e’)的返回值是 (12)。  \n16．数组分为索引数组和 (关联数组)  \n17．使用短数组方式定义数组的语法是(数组元素使用\"键 $\\mathrel{\\mathop:}=\\mathrel{\\mathop>}$ 值\"的方式来表示，各个元素之间使用\",\"分隔)18．现 有 数 组 \\$arr $\\mathbf{\\sigma}=\\mathbf{\\sigma}$ array(1,2,array( ‘ h ’ )), 则count(\\$arr, 1)的返回值是 (4)  \n19．将数组的指针 指向最后一 个元素的 函数是(end())  \n20．将 一 个 数 组 分 割 成 多 个 数 组 的 函 数 是(array_chunk())  \n21．在运行 PHP 文件时，如果 PHP 语句遗漏了分号，属于 (语法) 错误。  \n22．在 PHP 程序开发中，使用 (trigger_error()) 函数手动触发错误  \n23．在 php.ini 中 控制 错误信 息显 示的配 置是(display_errors)  \n24．error_log()函数的第 1 个参数表示(要记录的错误内容)。  \n25．默认情况下，php.ini 中的 error_log 的值为 (0)时，表示将错误发送到系统日志  \n26．HTTP 请求消息由(请求行) 、请求头和请求体三部1．当在 Apache 中完成虚拟主机配置后，为了使配置  \n生效，保存配置文件后需要_  重启服务器  .2．Apache 配置文件中，_ErrorDocument_指令可以为  \n指定的错误码配置对应的处理页面。3．PHP 中，多行注释以__/\\*_开始，以__\\*/_结束。4．__位运算符_是针对二进制数的每一位进行运算  \n的符号，它专门针对数字 0 和 1 进行操作。5．为防止 SQL 注入，在使用 MySQLi 操作数据库时，  \n可以使用_ mysqli_real_escape_string()__转义含有用  \n户输入数据的 SQL 语句。6．MySQLi 扩展方式获取详细的连接错误信息的函数  \n是_mysqli_connect_error()__。7．PHP 中使用 MySQLi 扩展操作数据库，则可以使用",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "分组成",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "27．HTTP 响应消息由响应行.(响应头)和响应体一部分组成  \n28．去除字符串中的 HTML 和 PHP 标签的函数是(strip_tags（）)  \n29．使用 (session_start())函数启动 Session。  \n30．使用超全局数组变量 (\\$_COOKIE) 接收 Cookie 数据.  \n31．MySQL 配置文件的名称是 (my.ini)  \n32．在 MySQL 的配置文件中，(datadir) 用于指定数据库文件的保存目录  \n33．PHP 提供了许多数据库扩展，常用的是 MySQL 扩(MySQLi 扩展)和 PDO 扩展.  \n34．通过 (mysqli_connect()) 函数连接 MySQL 服务35．通过 (mysqli_prepare())函数预处理 SQL 语何模板。  \n36．在正则表达式中，(\\b)用于匹配单词边界,(\\B)用于匹配非单词边界  \n37．正则表达式中\"()\"的作用是 (对正则表达式进行分组，小括号包裹起来的内容称为子模式)  \n38．函数 preg_match_all(‘/H.\\*?i/’,’Hi i i i’)的返值是(4)  \n39．使 用 fopen() 函 数 打 开 文 件 后 ， 返 回 值 是(resource)数据类型  \n40．file_put_contents()函数要实现追加写入，第 3个参数应设为 (FILE_APPEND)  \n41．若要禁止打开远程文件，可以使用 php.ini 中的(alow_url_fopen)配置项来设置。  \n42．在 PHP 中，使用 (filemtime(string \\$filename))获取文件的修改时间  \n43．在 PHP 中，若要实现文件下载，需将 header()函数中 Content-Disposition 的值设为 (attachment)  \n44．要 想 开 启 GD 库 ， 需 要 打 开 php.ini ， 将(;extension=php_gd2.dll) 中的\";\"删除  \n45．在处理图像颜色的透明度时，0 表示完全不透明(127) 表示完全透明。  \n46．对于 PNG 格式的图像，在创建画布时，若要保留图象的透明通道，则需要使用 (imagesavealpha()) 函数47．在 PHP 中，使用 imagegif()函数输出图像前，需要使用 (header()函数发送 HTTP 响应头) 告知浏览器输出内容的类型  \n48．imagecopymerge()函数的最后一个参数用于设置图像的合并程度，其取值范围是 $(0^{\\sim}100)$ )  \n49．在PHP 程序中可以使用(new) 关键字来创建一个对象  \n50．在 PHP 中可以通过 (abstract)关键字声明抽象类。51．在 PHP 中，实现接口使用(implements) 关键  \n52．克隆对象时，若要完成对新对象的初始化操作，可以使用 (_clone()) 魔术方法。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "53．在程序中使用 Trait 时使用 (use) 关键字引入。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "二、判断题1．PHP 一种运行于浏览器端的编程语言。（F）该是服务器端2．Apache 默认站点的目录是 www（F）(应该是 htdocs）3．在 PHP 安装目录中，ext 目录是 PHP 扩展文件所在的目录。（T）4．Apache 默认监听的端口号是的 8080（F）.(该是80)5．PHP 配置文件“无须创建，它会在安装 PHP 的时候自动生成。(F) (手动创建)6．“&&”与”and\"实现的功能相同，但是前者比后者优先级别高。(T)7．关键字推荐作为常量、函数名或类名使用，便于记忆。 (F)(不能)8．运算符中”or”的优先级最高.(F)9．递增运算符在前是指先进行递增运算后执行其他运算。 (T)10．比较运算符中的 $\\stackrel{66}{\\mathop{=}}=\\stackrel{\\prime\\prime}{}$ 会判断两个值的类型是否致。 (F)(只比较数值是否相等)11．PHP 提供的内置数学函数可方便地处理程序中的数学运算。 (T)12．Explode()函数用指定的连接符将数组拼接成字符串。 (F) (说反了)13．为函数设置参数时，默认参数和必选参数的位置没有限制，可以随意设置。 (F) (默认(可选)参数必须放在非默认(必选)参数的右侧。14．函数调用时，函数的名称可以使用一个变量来代。(T) (可变函数)15．在 PHP 中，定义函数“时可以没有返回值。(T)16．在数组中，元素的值是唯一的。 (F)17．sort()函数在默认情况下，按照数组中元素的类型从低到高进行排序。 (T)18．使用 shufle()函数可以打乱乱数组元素的顺序(T)19．PHP 中定义数组时，不需要指定数组的大小。(T)20．Explode()函数用指定的连接符将数组拼接成字符串。(F)(说反了)21．PHP 采用常量的形式来表示错误级别 (T)22．使用 exit 输出的错误信息会保存到错误日志中(F)(未提及该功能)23．ini_set()函数用于设置显示错误报告，仅在本脚本周期内有效。 (T)24．PHP 中的错误级别对应的值使用字符串形式表示(F)25．使用 Xdebug 工具可以跟踪代码的错误位置(T)26．响应状态码200 表示被请求的缓存文档未修改(F)(304)",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "27．URL 参数中含有中文时，需要编码处理后才能使用。(T)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "28．使用 GET 方式提交表单安全性更高。(F)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "29．cURL 扩展可以模拟浏览器发送请求(T)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "30．Cookie 保存在服务器端，不能随意修改。(F)(保存在浏览器的 Cookie 中)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "31．INSERT 不指定表的字段名添加数据时，添加的值的顺序必须和创建表时定义的字段顺序相同。( T)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "32．MySQL 数据表一旦创建成功，就不支持任何修改。(F)(可以修改)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "33．修改数据时若未带 WHERE 条件，则表中的数据会被全部修改。(T)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "34．PDO 扩展只能操作 MySQL 数据库。(F)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "35．预处理语句可以避免 SQL 注入问题，提高 SQL 语句的执行效率。(T)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "36．正则表达式\"[a-z]“和”[z-a]\"表达的含义相同。 (F) ",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "37．preg_match()函数用于实现字符串替换。(F)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "38．Preg_match_all()函数的返回值是完成匹配的总次数。(T)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "39．正则表达式”[^a]”的含义是匹配以 a 开始的字符串。 (F)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "40．在 PHP 中，dirname()函数用于返回路径中的目录部分。(T)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "41．php.ini 中的 open_basedir 无法限制 include()函数的访问路径(F)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "42．file_get_contents0 函数支持访问远程文件。(T)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "43．语句\"rmdir(‘path1/path2’)”的执行目的就是递归删除 path2 和 path1。(F)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "44．在遍历任何目录时，返回值中都会包括”.”和”...\"这两人特殊的目录。(F)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "45．IF 和 JPEG 都是无损压缩格式(F)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "46．2 函数 imageellipse0 可以绘制正圆。(T)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "47．使用gd_info()函数可以获取GD库支持的图像类型。(T)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "48．函数 imageellipse()可以绘制一段圆弧。(F)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "49．在 PHP 中，使用 GD 库提供的函数可以将文字绘制到画布上(T)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "50．符号\"::\"可以用来访问静态成员。(T)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "51．类常量使用 define()函数定义。(F)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "52．在类中可以使用 self 关键字表示当前的类(T)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "53．类中的 private 成员与其他成员之间是可见的。(T)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "54．类常量不能用 static 修饰。 (T)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "三、选择题",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "1、在 Apache 配置文件中，(C) 用于加载模块",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "A、FilesMatch B、PHPIniDir ",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "C、LoadModule D、以上选项都不正确",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2、下列选项中 Apache 默认的请求端口是 (B)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "A 型复!严风渡爸饱布胆唉稗蚌唉胡胺哀迸皑啊 0",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "B、80 C、9000 D、8800 ",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "3、在 Apache 配置文件中，用于配置服务器域名的配置项是 (D)。",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "A、DocumentRoot B、ServerRootC、ServerAdmin D、ServerName",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "4、在学习 PHP 时，需要安装 Apache 服务器，Apache 是种(C)服务器。",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "A、SMTP B、FTP C、WEB D. 以上都不是",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "5、下列选项中不属于 PHP 特点的是 (A)。",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "A、收费   B、跨平台C、面向时象   D、支持多种数据库",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "1、下列选项中，关于标识符的描述错误的是 (B)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "A、在 PHP 中，类名、方法名、函数名、变量名都属于标识符  \nB、标识符可以使用数字开头，如 123abc 是合法标识符C、标识符可以使用下画线开头，如 123abc 是合法标识符  \nD、标识符用作变量名时，区分大小写",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2 下列运算符中优先级最高的是 (B)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "A、& B、! C、 D、以上答案全部正确",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "3、下列递增递减语何中正确的是 (D)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "A、 $+{\\mathfrak{g}}_{\\mathrm{a}^{+}}$ B、 $+\\$8-$ C、 $+{-}\\mathrm{Sa}$ D、 $\\$1+$ ",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "4、以下不属于 PHP 关键字的是 (C)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "A、static B、class C、add D、use ",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "5、下列比较运算符中描述错误的是 (A)。",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "A、 $\\scriptstyle==$ 等于 B、 $\\left<\\right>$ 不等于C、 $!=$ 不等于 D、 $\\scriptstyle>=$ 大于或等于",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "1、下列关键字中，用于设置函数返回值的是 (D)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "A、continue  B、break  C、exit  D、return ",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2、实现向下取整的函数是 (B)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "A、ceil() B、floor()  C、min()  D、max()",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "3、若在函数内访问函数外定义的变量，需要使用(C) 关键字。",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "A、public  B、var  C、global  D、static ",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "4、下面关于时间和日期函数的说法错误的是 (B)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "A、time()函数用于获取当前的 UNIX 时间戳B、date()函数将日期转换成 UNIX 时间戳C、mktime()和 strtotime()函数都可以将给定的日期时间转换成 UNIX 时间戳D、microtime()函数可以获取到当前时间的微秒数",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "5、下面关于字符串函数的说法正确的是 (C)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "A、trim()可以对字符串进行拼接  \nB、str_replace()可以生成重复字符串  \nC、substr()可以截取字符串  \nD、strlen()以准确获取中文字符串长度  \n1、下列选项中，不能用来操作数组的运算符是(D)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "A、联合“ $+^{\\prime\\prime}$ B、相等 $\\scriptstyle\\prime\\prime=2^{,}$ C、全等” $\\mathrm{~\\boldmath~\\Omega~}^{,}===\\mathrm{{^{,}~\\o~}\\mathrm{~\\boldmath~\\Omega~}}\\mathrm{~\\boldmath~\\omega~}\\mathrm{~\\boldmath~D~}$ 、自增\" $^{\\prime\\prime}{++}$ ” ",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "2、下列函数中，可以将数组中各个元素连接成字符串的是(A)。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "A、implode()  B、explode()C、str_repeat()  D、str_pad()",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3、下列函数中，可以对数组按照键名逆向排序的是(D)",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "A、sort()  B、asort()  C、ksort()  D、krsort() ",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4、下列函数中，能够检查数组中是否存在某个值的是(B)",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "A、array_search() B、in_array() C、array_key() D、array_exists() ",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "5、下列定义数组的方法错误的是 (C)。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "A、array(1, 2)  B、[1, 2]  C、(1, 2) D、['name' $\\mathbf{\\Sigma}=\\mathbf{\\Sigma}$ >'zhangsan’, $\\mathrm{^{,}a g e^{,}=\\gamma20]}$ ",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "1、下列选项中，无法修改错误报告级别的一项是(C)",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "A、修改配置文件  \nB、error_reporting()  \nC、exit()  \nD、ini_set()",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "2、在 PHP 的配置文件中，用于控制是否记录错误日志的是(C)",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "A、logError  B、errorLog C、log_error  D、error_log ",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3、在 PHP 的配置文件中，(D) 用于指定日志写入的文件路径。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "A、logError  B、errorLog C、log_error  D、error_log ",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4、在 PHP 脚本运行时，遇见可能出现错误的地方，会触发的错误级别常量是 (B)",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "A、E_ERROR  B、E_NOTICE C、E_PARSE D、E_WARNNING ",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "5、下面关于显示错误报告描述错误的是(D)",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "A、error_reporting 配置指令用于设置报告的错误级B、E_ALL 表示所有的错误和警告信息  \nC、display_errors 配置指令用于设置是否显示错误信息  \nD、errors_display 配置指令用于设置是否显示错误信息",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "1、下列选项中，(C)不属于请求头中可以包含的内容。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "A、数据类型  B、编码格式  C、请求体  D、系统信息",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "2、关于响应头的描述错误的是 (D)",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "A、用于告知浏览器本次响应的服务程序名、内容的编  \n码格式等信息  \nB、响应头 Connection 表示是否需要持久连接  \nC、响应头 Content-Length 表示实体内容的长度  \nD、响应头位于响应行的前面",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3、下列选项中，用于接收表单 GET 方式提交的数据的变量是(C)",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "A、\\$get  B、\\$post  C、 $\\S_{-}$ _GET  D、\\$REQUEST ",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4、下列选项中，用于获取 Session 数据的变量是(A)",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "A、S_SESSION  b、\\$SESSIONC、\\$_COOKIE  D、以上都不是",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "5、下列选项中 (B)不属于输出缓冲机制的函数",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "A、ob_start() B、ob_get_data() C、ob_end_flush() D、ob_end_clean() ",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "1、下列选项中(C) 是 MySQL 默认提供的用户",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "A、admin  B、test C、root  D、user ",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "2、下列选项中，可以代替预处理 SQL 语句模板中数据部分的符号是 (A)",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "A、? B、\\*  C、&  D、% ",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3、下列选项中，mysgli_fetch_array0 函数的默认返回值形式是 (D)。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "A、MYSQLI_ASSOC  B、MYSQLI_ROWC、MYSQLI_NUM  D、MYSQLI_BOTH",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4、下列选项中，不属于 PHP 数据库扩展的是 (B)。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "A、MySQL B、FILEINFOc、MySQLi D、PDO",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "5、关于预处理操作的说法，错误的是(C)",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "A、使用预处理防止出现 SQL 注入问题，保证数据库的安全性  \nB、预编译 SQL 语句，提高 SQL 语句的运行效率  \nC、预编译 SQL 语句时，使用”#”占位符代替数据部分D、使用预处理可以避免手动拼写 SQL 语何时出现语法错误的问题",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "1、正则表达式\"[e][i]”匹配字符串\"Beijing\"的结果是(B)",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "A、ie B、ei  C、Beijing  D、Bei ",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "2、下列正则表达式的字符选项中，与”\\*”功能相同的是(A)",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "A、{0} B、? C、+ D、",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3、下列选项中，可以完成正则表达式中特殊字符转义的是 (B)",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "A、/ B、\\ C、\\$ D、# ",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "1、PHP 中用于判断文件是否存在的函数是 (B)",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "A、fileinfo() B、file_exists()C、fileperms（） D、filesize()",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "2、fileatime()函数能够获取的文件属性是 (C)",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "A、创建时间  B、修改时间C、上次访问时间  D、文件大小",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3、下列选项中，可以实现将一个文件复制到另一个文件或目录下的函数是 (D)",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "A、rename()  B、move_uploaded_file() C、link()  D、copy() ",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4、下列选项中，可以删除文件的函数是 (B)",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "A、rename() B、unlink() C、rmdir() D、fclose() ",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "5、下列选项中，可以将文件中的内容读入数组中的函数是 (A)",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "A、file()  B、fgets()C、file_get_contents()  D、fgetc()",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "1、下面关于常见图像格式的描述错误的是 (D)",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "A、PNG 格式适合保存包含文本、线条和单块颜色的图像  \nB、JPEG 格式是有损压缩格式  \nC、GIF 格式不适合高画质以及需要扩展颜色的图像  \nD、JPEG 格式可以保存半透明图像",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "2、下列选项中，创建的空白画布资源支持真色彩的函数是 (B)",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "A、imagecreate()  B、imagecreatetruecolor() C、imagecreatefromgif()  D、imagecreatefromjpeg() ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "3、下列选项中，创建的空白画布资源仅支持 256 色的函数是(A)",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "A、imagecreate()  B、imagecreatetruecolor() C、imagecreatefromgif()  D、imagecreatefromjpeg() ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4、下列选项中，imagerectangle()函数用于绘制(B)",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "A、一条直线  B、一个矩形  C、一个三角  D、一个圆",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "5、下列过滤类型中，可通过 imagefilter()函数实现模糊图像的是 (A)",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "A、IMG_FILTER_SELECTIVE_BLUR B、IMG_FILTER_CONTRAST C、IMG_FILTER_EMBOSS D、IMG_FILTER_NEGATE ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "1、在 PHP 中，默认访问控制修饰符是 (A)",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "A、public  B、private  C、protected  D、interface ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "2、下列选项中，可以用来在子类中调用父类方法的是",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "A、self  B、static  C、parent  D、\\$this ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "3、关于重写，以下说法正确的是 (C)",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "A、子类重写父类方法时，只需在子类中定义一个与父  \n类方法名称不同的方法即可  \nB、子类调用父类被重写的方法时，需要使用 self 关键  \n字  \nC、子类重写父类方法时，子类方法的访问权限不能大  \n于父类方法的访问权限  \nD、子类重写父类方法时，参数个数不能相同",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4、以下选项中，可以实现继承的关键字是(D)",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "A、global  B、final  C、interface  D、extends ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "5、下列选项中 (C)不属于面向对象的特性",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "A、封装  B、继承  C、类型约束  D、多态",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "四、简答题",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "1、请详细描述 PHP 的特点",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "答: (1)PHP 的源代码是开源的，并且可以免费使用  \n(2) PHP 的跨平台性很好，移植方便，在 Linux 平台和  \nWindows 平台上都可以运行  \n(3) PHP 提供了类和对象的语法，使用 PHP 进行 Web 开  \n发时，可以选择面向对象的方式编",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(4) PHP 支持ODBC，可以连接任何支持该标准的数据库，如 MySQL、Oracle、SQL Server 和 DB2 等。其中，PHP与 MySQL 是最佳搭档，使用得最多(5) PHP 语法简单、实用性强、开发速度快。而且，目前有很多 PHP 框架可以提高项目的开发速度",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "2、请概括 HTTP 的主要特点",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "HTTP 在 Web 开发中占据了重要的位置，其特点如下，",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "$\\textcircled{1}$ 简单快速: 客户端向服务器发送请求时，只需要传送请求方式和请求路径等简单的信息。传输的内容少通信速度快。$\\textcircled{2}$ 灵活: HTTP 允许传输任意类型的数据，传输的数据类型由 Content-Type 标记$\\textcircled{3}$ 无连接: 限制每次连接只处理一个请求。服务器处理完客户端的请求，并收到客户端的应答后，就会断开连接，节省传输时间。$\\textcircled{4}$ 无状态: 协议对于事物处理没有记忆能力。如果后续的处理害要使用前面请求的数据，则必须重新传递，这样可能导致每次连接发送的数据量增大。但当在服务器不需要前面的请求数据时，应答就比较快.",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "2、请简述在 Web 服务器中 Apache 和 PHP 的工作流程。",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "答: Apache 工作流程",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(1)客户端 (通常是 Web 浏览器) 向 Web 服务器发送请求  \n(2)Apache 接收到请求后，根据配置的文档目录(Document Root) 查找请求的网页文件  \n(3)找到对应的网页文件后，Apache 将其内容发送给客户端  \n(4)如果请求包含特定的 PHP 扩展，Apache 会将其传递给 PHP 解释器进行处理  \n(5)PHP 解释器解析并执行 PHP 代码，生成动态内容(6)PHP 解释器将生成的 HTML 内容返回给 Apache，由Apache 再次发送给客户端  \nPHP 工作流程  \n(1)当 Apache 接收到包含 PHP 代码的请求时，PHP 解释器会加载相应的 PHP 文件  \n(2)PHP 解释器解析 PHP 代码，并执行任何必要的数据库查询或函数调用  \n(3)PHP 解释器将生成的 HTML 或 XML 内容返回给 Apache，并将其嵌入到原始网页中。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "静态网页的处理流程：",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "output/3375cf01b3a999f0460571bdce21cb4272604eedc9f6189d83cda9e42a10c75b.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "动态网页的处理流程：",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "output/20b6a54ceb19bcfacd43def8fe0cc0c6806db858da3aefbe6a7c8e87e7f49082.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3、请列举 PHP 所支持的数据类型",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "答：(1)null  \n(2) bool: 布尔类型  \n(3) int: 整型  \n(4) float: 浮点型  \n(5) string: 字符串  \n(6) array: 数组  \n(7) object: 对象  \n(8) callable  \n(9) resource: 资源类型",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "4、请列举 6 个 PHP 中常用的预定义常量",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "table",
+        "img_path": "output/58d1e089be7bffcbdd7958a6b7411f833c723d934bbbe6ed37f418cd539bc926.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>常量名</td><td>功能描述</td></tr><tr><td>FILE</td><td>获取PHP文件的完整路径</td></tr><tr><td>PHP_VERSION</td><td>获取PHP的版本信息，如7.2.15</td></tr><tr><td>PHP_OS</td><td>获取当前PHP环境的操作系统类型，如： WINNT</td></tr><tr><td>PHP_INT_SIZE</td><td>获取PHP中整型数的字长，如：4</td></tr><tr><td>TRUE</td><td>该常量是一个真值 (true)</td></tr><tr><td>FALSE</td><td>该常量是一个假值 (false)</td></tr><tr><td>NULL</td><td>该常量是一个空值 (null)</td></tr><tr><td>E_ERROR</td><td>表示运行时的致命性错误，值为1</td></tr><tr><td>E_WARNING</td><td>表示运行时的警告错误（非致命），值为2</td></tr><tr><td>E_PARSE</td><td>表示编译时的解析错误，值为4</td></tr><tr><td>E_NOTICE</td><td>表示运行时的提醒信息，值为8</td></tr></table></body></html>\n\n",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "5、请至少列举 5 个常用的字符串函数",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "table",
+        "img_path": "output/8b412ced0c74c672e0ac240f8ba53fca418d5d335a071d9c929182f783d8366a.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>函数名称</td><td>功能描述</td></tr><tr><td>strlen0</td><td>获取字符串的长度</td></tr><tr><td>strpos0</td><td>在指定字符串中查找目标字符串首次出现的位置</td></tr><tr><td>strrpos()</td><td>获取指定字符串在目标字符串中最后一次出现的 位置</td></tr><tr><td>str_replace()</td><td>用于对字符串中的某些字符进行替换操作</td></tr><tr><td>substr0</td><td>用于获取字符串中的子串</td></tr><tr><td>substr_replace()</td><td>用于把字符串的一部分替换为另一个字符串</td></tr><tr><td>explode()</td><td>将指定字符串拆分成数组</td></tr><tr><td>implode()</td><td>用指定的连接符将数组中的键值拼接成字符串</td></tr><tr><td>trim0</td><td>去除字符串首尾处的空白字符（或指定的字符 串)</td></tr><tr><td>str_repeat()</td><td>重复字符串</td></tr><tr><td>strcmp0</td><td>比较两个字符串的大小</td></tr></table></body></html>\n\n",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "6、请列举 5 个常用的数字函数",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "table",
+        "img_path": "output/d9c33e9a9f09829a07dd62a5a3dcd0aac5ed5a098285741b541d4ec7d59e96fc.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>函数名</td><td>功能描述</td><td>函数名</td><td>功能描述</td></tr><tr><td>abs0</td><td>绝对值</td><td>min0</td><td>返回最小值</td></tr><tr><td>ceil0</td><td>向上取最接近的整数</td><td>pi0</td><td>返回圆周率的值</td></tr><tr><td>floor0</td><td>向下取最接近的整数</td><td>pow0</td><td>返回x的y次方</td></tr><tr><td>fmod0</td><td>返回除法的浮点数余 数</td><td>sqrt0</td><td>返回一个数的平方根</td></tr><tr><td>is_nan0</td><td>判断是否为合法数值</td><td>round0</td><td>对浮点数进行四舍五 入</td></tr><tr><td>max0</td><td>返回最大值</td><td>rand0</td><td>返回随机整数</td></tr></table></body></html>\n\n",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "7、请列举常用的数组排序的方法，并简要说明每个算法的排序原理。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "答：(1)冒泡排序：",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "冒泡排序是比较简单的排序算法。它的实现原理是，将数组元素按照从小到大或从大到小的顺序排序，不断比较数组中相邻两个数组元素的值，较小或较大的元素前移。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "(2)选择排序 ",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "选择排序是一种非常直观的排序算法，它的实现原理是，从待排序的数组中选出一个最小或最大的元素与数组的第 1 个元素互换，接着再在剩余的数组元素中选择最小或最大的一个与数组的第 2 个元素互换，依次类推，直到待排序数组全部数组元素排序完成。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "(3)快速排序 ",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "快速排序的实现思路是：首先选择一个基准元素，通常选择待排序数组的第1 个数组元素。通过循环数组元素，将待排序的数组分成两个部分，其中一部分比基准元素小，另一部分比基准元素大，然后再利用同样的方法递归地排序划分出的两部分，直到将所有划分的数组排序",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "完成。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(4)插入排序 ",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "插入排序是通过构建有序数组，将无序数组中的元素和有序数组中的元素进行比较，有序数组的比较顺序是从最后一个元素向第一个元素遍历，找到相应位置插入数组元素，直到完成无序数组的所有元素排序。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "7、请列举 5 个常用的数组函数",
+        "text_level": 1,
+        "page_idx": 7
+    },
+    {
+        "type": "table",
+        "img_path": "output/c82484622b77b21300d557697ba0fbfaeeb35ecb59b48f23a9313aca556e3c8f.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>函数名称</td><td>功能描述</td></tr><tr><td>key0</td><td>获取当前指针指向数组元素的键</td></tr><tr><td>current()</td><td>获取当前指针指向数组元素的值</td></tr><tr><td>next()</td><td>将数组中的指针向后移动一位</td></tr><tr><td>prev0</td><td>将数组中的指针向前移动一位</td></tr><tr><td>end0</td><td>将数组的指针指向最后一个数组元素</td></tr><tr><td>reset()</td><td>将数组的指针指向第一个数组元素</td></tr></table></body></html>\n\n",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "8、请简要说明 GET 与POST 提交方式的区别",
+        "text_level": 1,
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(1) post 向服务器传送数据; get 从服务器上获取数据。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(2)在客户端，get 把参数数据队列加到提交表单的ACTION 属性所指的 URL 中，值和表单内各个字段一一对应，在 URL 中可以看到。post 通过 HTTP ost 机制，将表单内各个字段与其内容放置在 HTML HEADER 内一起传送到 ACTION 属性所指的 URL 地址。用户看不到这个过程。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(3)对于 get 方式，服务器端用 Request.QueryString获取变量的值 ，对于 post 方 式，服务 器端用Request.Form 获取提交的数据。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(4) get 可以传送的数据量则非常小，只能有1024 字节，不能大于 2KB。post 传送的数据量较大，一般被默认为不受限制。但理论上，IIS4 中最大量为 80KB，IIS4 中为 100KB。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(5) 安全性问题: 使用GET 方式提交的数据在URL 地址栏中明文传输，使用POST 方式提交的数据是不可见的。通常情况下，推荐使用 POST 方式提交表单数据。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "8、简述正则表达式中小括号的主要功能",
+        "text_level": 1,
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "小括号“0”可以对正则表达式进行分组，小括号包裹起来的内容称为子模式分组后，可以将每个子模式看成一个整体，对整体进行操作。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "小括号的主要功能",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "1.改变作用范围  \n2.捕获内容  \n3.反向引用  \n4.零宽断言",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "9、请列举 5 个 MySQLi 扩展常用函数",
+        "page_idx": 7
+    },
+    {
+        "type": "table",
+        "img_path": "output/345a55a2cb8c7d6e2da26b6e18fea01d7877a92b5d931c3974b8f415e23b5112.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>函数</td><td>描述</td></tr><tr><td>mysqli_connect()</td><td>连接MySQL服务器</td></tr><tr><td>mysqli_connect_error()</td><td>获取连接服务器时错误信息</td></tr><tr><td>mysqli_select_db()</td><td>选择数据库</td></tr><tr><td>mysqli_set_charset()</td><td>设置客户端字符集</td></tr><tr><td>mysqli_query0</td><td>执行SQL语句，写操作返回true或false， 读操作返回结果集对象</td></tr><tr><td>mysqli_insert_id()</td><td>获取上一次插入操作时产生的ID</td></tr><tr><td>mysqli_affected_rows()</td><td>获取上一次操作时受影响的行数</td></tr><tr><td>mysqli_errno()</td><td>返回上一个MySQL操作中的错误信息的 错误码</td></tr><tr><td>mysqli_error()</td><td>返回上一个MySQL操作产生的错误信息</td></tr><tr><td>mysqli_close()</td><td>关闭数据库连接</td></tr></table></body></html>\n\n",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "10、请列举 5 个常用文件操作函数",
+        "text_level": 1,
+        "page_idx": 7
+    },
+    {
+        "type": "table",
+        "img_path": "output/36c7507a6d3009db262fae9f11d11af25a8df5e8cd471ace2d866f5cc09bd881.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>函数</td><td>功能</td></tr><tr><td>int filesize(string $filename)</td><td>获取文件°大小</td></tr><tr><td>int filectime(string $filename)</td><td>获取文件的创建时间</td></tr><tr><td>int filemtime(string $filename)</td><td>获取文件的修改时间</td></tr><tr><td>int fileatime(string $filename)</td><td>获取文件的上次访问时间</td></tr><tr><td>bool is_readable(string $filename)</td><td>判断给定文件是否可读</td></tr><tr><td>bool is_writable(string $filename)</td><td>判断给定文件是否可写</td></tr><tr><td>bool is_executable(string $filename)</td><td>判断给定文件是否可执行</td></tr><tr><td>array stat(string $filename)</td><td>获取文件的信息</td></tr></table></body></html>\n\n",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "11、请简要说出超全局变量\\$ FLES 获取上传文件信息后，各个元素键名及其作用",
+        "text_level": 1,
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "答: (1)name: 表示文件名，是用户上传的文件在服务器上的名称。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(2)type: 表示文件的 MIME 类型(3)tmp name: 表示临时文件路径，是服务器上存储上传文件的临时路径(4)error: 表示错误代码，是一个整数值，表示上传过程中可能发生的错误。可能的错误代码包括但不限于:UPLOAD ERR OK (无错误) 、UPLOAD ERRINI SIZE (临时文件大小超过了 php.ini 中的设置)、PLOAD RR ORMSIZE 表单大小超过了表单限制)、UPLOAD RR ARTIAL(文件部分上传失败等。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(5)size: 表示文件大小(字节数)",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(6)headers: 表示一个包含 HTTP 头信息的关联数组当文件正在通过浏览器进行上传时有效",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "12、请简述 imagettftext()函数的 8 个参数的作用",
+        "text_level": 1,
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "答: (1) $\\S$ image: 表示画布资源",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(2)\\$size: 表示字体大小，其长度单位依赖于 GD 库的版本;  \n(3)\\$angle: 表示旋转角度，角度单位是度而不是弧度，转的中心点是参数 $\\$1,456,7$ : 被绘制字符串的第一个字符的基线点单位是像素  \n(6)\\$color: 表示字体的颜色  \n(7) $\\S$ fontfile: 表示字体文件，是包含 trueType 字体字模的文件;  \n(8) $\\S$ text: 表示要渲染的字符串，注意必须是 UTF-8 折码的字符串",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "13、请利用学习过的知识实现 images 目录下 sun.jpg图像的底片色特效输出",
+        "text_level": 1,
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "创建画布、处理颜色、添加图像的底片色特效、输出图像",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "14、简述面向对象中接口和抽象类的区别 ",
+        "text_level": 1,
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "抽象类与抽象方法: 抽象类是一种特殊的类，用于定义某种行为，具体的实现需要子类来完成。例如，定义一个运动类，对于跑步这个行为，有基础跑、长距离跑、减速跑等多种跑步的方式。可以使用 PHP 提供的抽象类和抽象方法来实现，在定义时添加 abstract 关键字修饰。  \nabstract class 类名{  \npublic abstract function 方法名();  \n}  \n接口: 若抽象类中的所有方法都是抽象方法，可以将其定义为接口。接口用于指定某个类必须实现的功能，通过 interface 关键字来定义。在接中，所有的方法只能是公有的，不能使用 final 关键字来修饰，具体语法格式如下  \ninterface 接口名{  \nconst 常量名 $\\mathbf{\\Sigma}=\\mathbf{\\Sigma}$ ''; // 接口常量  \npublic function 方法名(); // 接口方法",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "15、简述构造方法和析构方法是在什么情况下调用的?作用是什么?",
+        "text_level": 1,
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "构造方法用于在创建对象时被自动调用，完成属性的初  \n始化。  \n访问控制修饰符 function __construct(参数列表){初始化操作  \n}  \n析构方法在对象被销毁之前自动调用，执行一些指定的  \n功能或操作(如关闭文件、释放结果集等)，其基本语法  \n格式如下  \n访问控制修饰符 function __destruct(){清理操作",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "【案例 34】抽象类与接口",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "一、需求分析：",
+        "text_level": 1,
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "在项目开发中，通常类的基础属性和方法都是由项目负责人进行编写的。其他人在编写相关类的时候，都需要通过继承这些类来获取基础属性和方法。虽然可以通过会议规定开发流程，但是如果能够从代码上来实现硬性控制更为方便。在 PHP 中可以通过abstract 关键字声明抽象类，来实现上述需求。有时候我们希望一个类必须具有某些公共方法，此时就可以使用接口技术。接下来就通过两个简单的例子演示抽象类和接口的使用。",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "二、设计思路",
+        "text_level": 1,
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "（1）创建抽象类 goods 类，定义一个抽象方法和一个 final  \n方法。（2）创建 book 类，继承 goods 类，实现 goods 类的抽象方  \n法。（3）创建 phone 类，继承 goods 类，实现 goods 类的抽象  \n方法。（4）定义接口，通过接口规定类必须要具有的公共方法。（5）创建类文件，来实现接口。",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "三、实现步骤",
+        "text_level": 1,
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "1、在项目 phpweb 中，创建 goods 类：goods.class.php，使用关键字 abstract 声明成一个抽象类。",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "<?php /\\*\\* ",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "$\\star$ 定义商品类，使用 abstract 将类声明为抽象类$\\star$ 该类提供基础属性\\$name，\\$price，构造方法$\\star$ 类中使用 abstract 将 getName()方法声明为抽象方  \n法，继承该类的子类必须实现该方法，但是实现过程可以不同。$\\star$ 类中使用 final 关键字将 getPrice()方法声明为  \nfinal 方法，final 关键字限制了子类必须存在该方法并且不  \n能被重写。\\*/abstract class goods{public \\$name;   //商品名称public \\$price;  //商品价格//构造方法，初始化对象的\\$name 和\\$price 属性public function __construct(\\$name,  \n\\$price) {\\$this->name $\\mathbf{\\Sigma}=\\mathbf{\\Sigma}$ \\$name;\\$this->price $\\mathbf{\\Sigma}=\\mathbf{\\Sigma}$ \\$price;}//限制非抽象子类都要实现 getName 的方法，但是  \n可以不同abstract protected function getName();//要求每个子类都必须要有相同的返回原始价格的方  \n法final public function getPrice() {return \\$this->price;}}",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "上述代码中，通过 abstract 将 goods 类声明为抽象类，该类只能被继承不能被实例化。其中 final 关键字限制了子类必须存在该方法并且不能被重写。",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "2、创建 book 类：book.class.php。该类继承 goods 类，根据goods 类定义，book 类中只需要实现 getName()方法即可。",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "<?phpheader('content-type:text/html;charset $\\scriptstyle=$ utf  \n-8');//载入 goods 类文件require './goods.class.php';//定义 book 类，继承 goods 类class book extends goods{//由于父类 getName 方法是抽象方法，因此在这里  \n必须实现public function getName(){return '书名：《'.\\$this->name.'》';}}//实例化 book 类，book 类继承了 goods 类，具有构造  \n方法，需要传递相关参数\\$book $\\mathbf{\\Sigma}=\\mathbf{\\Sigma}$ new book('PHP 高级教程',45);echo \\$book- $>$ getName();echo $\\cdot_{<\\mathrm{hr}>}$ ';//父类 good 类中 getPrice 是 final 方法，无法被重写echo \\$book->getPrice();",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "3、创建 phone 类：phone.class.php。",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "<?php header('content-type:text/html;charset $\\scriptstyle=$ utf -8'); //载入 goods 类文件 require './goods.class.php'; ",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "//定义 phone 类，继承 goods 类class phone extends goods{//由于父类 getName 方法是抽象方法，因此在这里  \n必须实现public function getName(){return '手机型号为：'.\\$this $\\mathrel{-}>$ name; //  \n实现与 book 类不同}}//实例化 phone 类，phone 类继承了 goods 类，具有构  \n造方法，需要传递相关参数$\\$1$ new phone('MI4s',1999);echo \\$p->getName();echo '<hr>';//父类 good 类中 getPrice 是 final 方法，无法被重写echo \\$p->getPrice();访问 http://phpweb.com/book.class.php，观察运行效果。",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "4、定义接口。接口是一种特殊的结构，其内容由一些抽象（没有实现部分）的公共方法组成。接口使用关键字interface 来声明。创建 interface.php 文件，在其中定义接口。",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "<?php  \n/\\*  \n$\\star$ 定义 usb 接口  \n\\*/  \ninterface usb{public function connect(); //连接public function transfer(); //传输数据public unction isconnect();  //断开连接  \n}",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "5、实现接口。在类中采用关键字 implements 来实现接口。创建 mp3 类，实现上面定义的 sub 接口。",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "<?phpheader('content-type:text/html;charset $\\c=$ utf-8');//载入 interface.php 文件require './interface.php';//使用 implements 关键字实现 usb 接口class mp3 implements usb{public function connect(){echo '开始连接<br>';}public function transfer() {echo '开始传输....传输结束<br>';}public function disconnect() {",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "echo '断开<br>'; } } $\\$123,456$ new mp3; \\$mp3->connect(); $\\$123->$ transfer(); $\\$123->$ disconnect(); ",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "测试访问 http://phpweb.com/mp3.class.php，观察运行效果。",
+        "page_idx": 10
+    }
+]

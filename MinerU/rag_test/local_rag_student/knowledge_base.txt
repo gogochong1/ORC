@@ -1,0 +1,495 @@
+
+# 01 OpenStack概述.pdf
+
+OpenStack 概述 OpenStack 管理平台  
+主讲：张修博  
+目
+录 CONTENTS   OpenStack 架构 2  OpenStack 简介 1 
+ OpenStack 核心服务简介  3 
+ OpenStack 各主要项目间交互示例  4 
+重点   OpenStack 的核心组件及其功能  
+ 
+ 
+OpenStack 的架构设计与服务间的交互关系。  
+ 
+ 
+1. 
+2. 
+难点   理解OpenStack 的架构 
+ 
+ 
+掌握OpenStack 与虚拟化、云计算的区别与联系  
+ 
+ 
+1. 
+2. 
+OpenStack 简介 
+ 01 
+1、OpenStack 起源 
+跟随 
+兼容 促生 
+•2006年亚马逊推出 AWS，正式开启云计算的新纪元  
+•2010年7月美国国家航空航天局（ NASA）与Rackspace 合作，共同宣布 OpenStack
+开放源码计划，由此开启了属于 OpenStack 的时代 
+•OpenStack 从诞生之初对标 AWS，一直在向 AWS学习，同时开放接口去兼容各种
+AWS服务 
+2、OpenStack 是什么？  
+ 
+OpenStack 是开源云操作
+系统，可控制整个数据中
+心的大型计算，存储和网
+络资源池。  
+ 
+用户能够通过 Web界面、
+命令行或 API接口配置资
+源。 
+ 
+ 
+
+3、OpenStack 能做什么？  
+OpenStack 通过一组相互
+关联的服务提供基础设施
+即服务 （IaaS）解决方
+案。每个服务都提供了一
+个应用程序编程接口  
+（API）来促进这种集成  
+ 
+OpenStack 项目是一个适
+用于所有类型云的开源云
+计算平台，项目目标是提
+供实施简单、可大规模扩
+展、丰富、标准统一的云
+计算管理平台  
+
+5、开源OpenStack 版本演进  
+•OpenStack 每年两个大版本 ，一般在4月和10月中旬发布 ，版本命名从字母 A-Z 
+Austin  
+Bexar  Cactus  
+Diablo  Essex  
+Folsom  Grizzly  
+Havana  Icehouse  
+Juno  Kilo 
+Liberty  Mitaka  
+Newton  Ocata  
+Pike Queens  
+Rocky  Stein  2010  2011  
+2011  2011  2012  
+2012  2013  
+2013  2014  
+2014  2015  
+2015  2016  
+2016  2017  
+2017  2018  
+2018     2019  
+Train  
+2019  Ussuri  2020  
+Victoria  
+2020  Wallab
+y 2021  
+Xena  
+2021  Yoga  2022  
+zed 
+2022  
+6、OpenStack 设计理念  
+开放 灵活 可扩展  
+•开源 
+•尽最大可能
+重用已有开
+源项目 
+ •架构可裁剪  
+•大量使用插件化
+方式进行架构设
+计与实现  
+ •由多个相互独立的
+项目组成  
+•每个项目包含多个
+独立服务组件  
+•无中心架构  
+•无状态架构  
+ 
+基础配色  强调色一  强调色二  
+OpenStack 和虚拟化、云计算什么关系？  
+•请花五分钟时间思考或讨论： OpenStack 和虚拟化 、云计算什么关系 ？ 
+OpenStack  
+虚拟化 云计算 
+7、OpenStack 与虚拟化  
+•OpenStack 不是虚拟化 ，OpenStack 只是系统的控制面 ，不包括系统的数据面组件 ，
+如Hypervisor 、存储和网络设备等  
+•虚拟化是 OpenStack 底层的技术实现手段之一 ，但并非核心关注点  
+•OpenStack 与虚拟化的关键区别：  
+•自身不提供虚拟化技术  
+•调用多种技术实现多资源池管理  
+•对外提供统一管理接口  
+OpenStack  
+•环境隔离，资源复用  
+•降低隔离损耗，提升运行效率  
+•提供高级虚拟化特性  
+虚拟化 
+8、OpenStack 与云计算  
+•OpenStack 只是构建云计算的关键组件：  
+•内核、骨干、框架、总线  
+•为了构建云计算 ，我们还需要很多东西 ： 
+Hardware and DC infrastructure  Cloud 
+OSS Cloud Console  
+Cloud BSS  Cloud Services  
+Resources 
+Pool 1  OpenStack  
+… Resources 
+Pool 2  Resources 
+Pool n  
+OpenStack 的架构 
+ 02 
+1、OpenStack 架构概览  
+
+2、OpenStack 逻辑架构  
+要设计、部署和配置 OpenStack ，管理员必须了解其逻辑架构  
+每个OpenStack 服务内部是由多个进程组成 。所有服务 （Keystone 除外）都至少有
+一个API进程，负责监听 API请求，对请求进行预处理并将它们传递给服务的其他
+部分 
+每个OpenStack 服务的进程之间的通信 ，使用AMQP消息代理 。服务的状态存储在数
+据库中。在部署和配置 OpenStack 云时，管理员可以在多种消息代理和数据库解决
+方案中进行选择 ，例如RabbitMQ 、MySQL、MariaDB和SQLite 
+用户可以通过 Web用户界面 、命令行客户端以及通过浏览器插件或 curl等工具发出
+API请求来访问 OpenStack  
+ 
+3、OpenStack 生产环境部署架构示例  
+Deployment Host  
+Ansible   
+OpenStack -Ansible  
+Repository   
+Infrastructure Service  
+OpenStack Service  Infrastructure Control Plane Host  
+MariaDB  RabbitMQ  
+Memcached  
+Identity  Image  
+Compute 
+Management  
+Block Storage 
+Management  
+Network 
+Management  Network  
+L2/L3 Agents  Orchestration  Bare Metal 
+Management  Dashboard  Infrastructure Control Plane Host  
+MariaDB  RabbitMQ  
+Memcached  
+Identity  Image  
+Compute 
+Management  
+Block Storage 
+Management  
+Network 
+Management  Network  
+L2/L3 Agents  Orchestration  Bare Metal 
+Management  Dashboard  Infrastructure Control Plane Host  
+MariaDB  RabbitMQ  
+Memcached  
+Identity  Image  
+Compute 
+Management  
+Block Storage 
+Management  
+Network 
+Management  Network  
+L2/L3 Agents  Orchestration  Bare Metal 
+Management  Dashboard  Compute Host  
+Compute 
+Hypervisor  
+Network  
+L2/L3 Agents  Compute Host  
+Compute 
+Hypervisor  
+Network  
+L2/L3 Agents  Compute Host  
+Compute 
+Hypervisor  
+Network  
+L2/L3 Agents  Storage Host  
+Block Storage 
+Volumes  Storage Host  
+Block Storage 
+Volumes  Storage Host  
+Block Storage 
+Volumes  
+OpenStack 核心服务简介  
+ 03 
+1、界面管理服务 Horizon 
+HORIZON  •提供基于 Web的控制界
+面，使云管理员和用
+户能够管理各种
+OpenStack 资源和服务  
+ •首次出现在 OpenStack
+的“Essex”版本中  
+•依赖Keystone 认证服务  
+ 
+2、认证服务 Keystone  
+KEYSTONE  •提供身份验证，服务发
+现和分布式多租户授权  
+•支持LDAP、OAuthSAML 、
+OpenID Connect 、和
+SQL 
+ •首次出现在 OpenStack
+的“Essex”版本中  
+•为其他OpenStack 服务
+提供认证支持  
+ 
+3、镜像服务 Glance 
+GLANCE •提供发现、注册和检索
+虚拟机镜像功能  
+•镜像可以存放在不同地
+方，例如本地文件系统、
+Swift、Cinder等 •首次出现在 OpenStack
+的“Bexar”版本中  
+•依赖Keystone 认证服务  
+4、计算服务 Nova 
+NOVA •提供大规模、可扩
+展、按需自助服务
+的计算资源  
+•支持管理裸机，虚
+拟机和容器  •首次出现在 OpenStack
+的“Austin”版本中  
+•依赖Keystone 认证服务、
+Neutron网络服务和
+Glance镜像服务  
+5、块存储服务 Cinder 
+CINDER •提供块存储服务，为虚拟
+机实例提供持久化存储  
+•调用不同存储接口驱动，
+将存储设备转化成块存储
+池，用户无需了解存储实
+际部署位置或设备类型  •首次出现在 OpenStack
+的“Folsom”版本中  
+•依赖Keystone 认证服务  
+6、对象存储服务 Swift 
+SWIFT •提供高度可用、分布式、
+最终一致的对象存储服务  
+•可以高效、安全且廉价地
+存储大量数据  
+•非常适合存储需要弹性扩
+展的非结构化数据  •首次出现在 OpenStack
+的“Austin”版本中  
+•为其他OpenStack 服务
+提供对象存储服务  
+7、网络服务 Neutron 
+NEUTRON •负责管理虚拟网络，
+专注于为 OpenStack 提
+供网络即服务  •首次出现在 OpenStack
+的“Folsom”版本中  
+•依赖Keystone 认证服
+务 
+8、编排服务 Heat 
+HEAT •为云应用程序编排
+OpenStack 基础架构资源  
+•提供OpenStack 原生REST 
+API和CloudFormation 兼
+容的查询 API •首次出现在 OpenStack
+的“Havana”版本中  
+•依赖Keystone 认证服务  
+9、计量服务 Ceilometer  
+CEILOMETER  •Ceilometer 项目是一项
+数据收集服务 ,可为所
+有OpenStack 核心组件
+提供客户计费、资源跟
+踪和警报功能  •首次出现在 OpenStack
+的“Havana”版本中  
+ 
+OpenStack 的各主要项目间交互示例  
+ 04 
+1、提问：创建一个 VM需要些什么资源？  
+ 
+ CPU 
+内存 
+硬盘 
+网卡 
+Linu
+x 
+ISO Linux PC  计算 
+存储 
+网络 
+镜像 VM 
+2、OpenStack 创建VM，服务间交互示例  
+ 
+ 
+VM 
+Nova  Neutron  Heat  
+Cinder  Swift  
+Keystone  Orchestrates Cloud  
+Horizon  
+Glance  Provides UI for  
+Provides images  
+Provisions  Provides 
+volumes for  
+Provides Auth  for 
+Backups volumes in  Provides 
+network for  
+Stores 
+images in  
+1.为什么称 OpenStack 是云操作系统 ？ 
+ 思考题 
+•本章主要介绍 OpenStack 的起源、版本演进 、定义、架构、核心组件等 ，
+让学生对于开源 OpenStack 与云计算 、虚拟化的区别有清晰的认知 。 本章总结  
+谢谢 
+
+
+
+# 实验01 体验OPENSTACK.pdf
+
+主讲：张修博，林桂
+兰 实验01 体验OpenStack  OPENSTACT 管理平台实验  
+实验目的  
+1.在华为云平台上利用已有的镜像创建云主机。镜像
+中已经安装好了 openstack 服务 
+2.体验openstack 管理平台  
+实验要求  
+环境要求：计算机（装有 Windows XP/2003 或更高版本的操
+作系统、装有网卡已联网  ）。 
+ 
+分组：1人1组。 
+OpenStack 工作原理  
+1、OpenStack 实际上由一系列叫作脚本的命令组成。这些脚
+本会被捆绑到名为项目的软件包中，这些软件包则用于传递
+创建云环境的任务。  
+2、OpenStack 还会使用  2 种其他类型的软件：  
+虚拟化软件，用于创建从硬件中抽象出来的虚拟资源层  
+基础操作系统（ OS），用于执行 OpenStack 脚本发出的命令  
+ 
+ 
+OpenStack 工作原理  
+3、OpenStack 本身不会虚拟化资源，但会使用虚拟化资源来
+构建云 
+4、OpenStack 、虚拟化和基础操作系统，这  3 种技术协同
+工作服务用户  
+ 
+用户 虚拟化  OpenStack  
+基础OS 
+实验内容  
+一、注册并登陆华为云（如已注册，则直接登录）  
+1、点击控制台，绑定帐号，确认绑定信息 ，如图所示；  
+
+实验内容  
+2、发送ID给老师，接收镜像，如图所示。  
+ 
+
+实验内容  
+2、发送ID给老师，接收镜像，如图所示。  
+ 
+
+实验内容  
+3、获取镜像后，申请虚拟机，如图所示。  
+
+实验内容  
+4、选择服务器配置，如图所示。  
+
+实验内容  
+5、创建网络，选择网络 ,如图所示。  
+
+实验内容  
+5、创建网络，选择网络 ,如图所示。  
+
+实验内容  
+6、安全配置，如图所示。  
+
+实验内容  
+7、购买公网 IP，如图所示。  
+
+实验内容  
+8、配置登录信息 ,如图所示  
+
+实验内容  
+9、立即购买 ,如图所示  
+
+实验内容  
+10、登录云主机 ,如图所示  
+
+实验内容  
+11、公网IP复制到浏览器地址栏就可以打开云主机上已经安
+装好的openstack 服务,如图所示  
+
+实验内容  
+二、体验 openstack 的Web管理界面，完成实验后记得删除资
+源，不然一直会扣费  
+
+思考 
+1、请使用生活中的例子思考或讨论 OpenStack 各服务之间是
+如何交互的？  
+ 
+举例 入住酒
+店 
+网上购
+物 
+考华为
+HCIP证
+书过程 其
+他…… 
+谢谢 
+
+
+
+# 部署问题解决.docx
+
+在运行脚本source /usr/local/share/kolla-ansible/init-runonce时报错：
+File "/usr/local/lib/python3.6/site-packages/netaddr/__init__.py", line 16, in <module> raise RuntimeError('Python 3.7.0 or higher is required!') RuntimeError: Python 3.7.0 or higher is required!
+是因为python版本太低，不适配，只要更新python版本即可。
+输入命令更新为3.8版本：yum install python38 -y
+如果出现以下报错，证明yum源不可用，：
+CentOS-8 - AppStream 0.0 B/s | 0 B 00:00 Errors during downloading metadata for repository 'AppStream': - Curl error (6): Couldn't resolve host name for  [Could not resolve host: mirrorlist.centos.org] Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for  [Could not resolve host: mirrorlist.centos.org]
+
+我们可以去华为云官网下载可用的镜像源，下载到路径/etc/yum.repos.d
+首先进入到对应路径：
+cd /etc/yum.repos.d
+
+[root@controler yum.repos.d]# mkdir bak
+[root@controler yum.repos.d]# ls
+bak                     CentOS-Debuginfo.repo  CentOS-Media.repo       epel-modular.repo
+CentOS-AppStream.repo   CentOS-Devel.repo      CentOS-PowerTools.repo  epel-playground.repo
+CentOS-Base.repo        CentOS-Extras.repo     CentOS-Sources.repo     epel.repo
+CentOS-centosplus.repo  CentOS-fasttrack.repo  CentOS-Vault.repo       epel-testing-modular.repo
+CentOS-CR.repo          CentOS-HA.repo         docker.repo             epel-testing.repo
+[root@controler yum.repos.d]# mv CentOS* bak
+[root@controler yum.repos.d]# ls
+bak          epel-modular.repo     epel.repo                  epel-testing.repo
+docker.repo  epel-playground.repo  epel-testing-modular.repo
+[root@controler yum.repos.d]# mv epel* bak
+[root@controler yum.repos.d]# ls
+bak  docker.repo
+[root@controler yum.repos.d]# mv docker.repo  bak
+[root@controler yum.repos.d]# ls
+bak
+
+输入命令下载yum源
+wget 
+
+
+[root@controler yum.repos.d]# ls
+bak  CentOS-8-anon.repo
+新建一个文件夹，移动不可用的镜像源到文件夹里。
+更新yum源：yum clean all；生成缓存yum makecache
+再下载即刻：yum install python38 -y
+
+下载后进行以下操作
+
+首先，确认 Python 3.8 是否已经正确安装，并检查其路径：
+python3.8 --version
+which python3.8
+如果 Python 3.8 已正确安装，你会看到类似以下的输出：
+Python 3.8.x
+/usr/bin/python3.8
+
+#### 2. **更新默认 Python 版本**
+如果 Python 3.8 已安装，但系统默认使用的是 Python 3.6，可以通过以下命令将默认 Python 设置为 Python 3.8：
+alternatives --set python /usr/bin/python3.8
+然后验证默认 Python 版本是否已更新：
+python --version
+
+#### 4. **清理旧的 Python 环境**
+如果系统中存在多个 Python 版本，可能会导致依赖库安装到错误的路径。可以通过以下命令清理旧的 Python 环境：
+pip3.6 uninstall -y netaddr keystoneauth1 osc_lib openstackclient
+pip3.8 install --upgrade netaddr keystoneauth1 osc_lib openstackclient
+```
+
+#### 5. **重新运行 `init-runonce`**
+完成上述步骤后，重新运行 `init-runonce` 脚本：
+4）调用环境变量
+. /etc/kolla/admin-openrc.sh
+
+source /usr/local/share/kolla-ansible/init-runonce
+
